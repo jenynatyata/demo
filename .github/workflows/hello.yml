@@ -1,9 +1,9 @@
-name : hello jenny
+name: hello jenny
 on:
     push:
 jobs:
     hello:
-        run-on: ubuntu-latest
-    steps:
-        - name: print message
-        run: echo "hello tyayta"
+        runs-on: ubuntu-latest
+        steps:
+            - name: print message
+            run: echo "hello tyayta"
